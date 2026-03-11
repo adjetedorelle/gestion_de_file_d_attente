@@ -1,5 +1,6 @@
 body{
     background-color:#DDE3EC ;
+    
 }
 .bouton :hover{
     background-color: green;
@@ -85,6 +86,59 @@ body{
     margin: 50px;
     font-family: "Montserrat";
 }
+.bienvenue
+{
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 40px;
+    width: 500px ;
+    margin: 50px 400px 20px 400px;
+    height: 400px;
+}
+
+.tel{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 0 0 90px;
+    gap: 20px;
+    padding: 8px 8px 0 0;
+}
+.tel input
+{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.formulaire form label{
+    margin-right: 180px;
+}
+.bas
+{
+    
+    margin: 80px ;
+
+}
+#unique                                  
+{
+    background-color: rgb(21, 85, 225);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    color: white;
+    
+}
+#unique:hover
+{
+    background-color: green;
+    
+}
+
+.code
+{
+    background-color: blue;
 .formulaire{
     font-family: "Montserrat";
     width: 400px;
