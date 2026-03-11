@@ -1,0 +1,94 @@
+body{
+    background-color:#DDE3EC ;
+}
+.bouton :hover{
+    background-color: green;
+}
+.mon_entreprise_card{
+    width:300px ;
+    background-color:  #FFFFFF;
+      
+    border-radius: 10px;
+}
+.parent{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    margin: 20px;
+    margin-left: 100px;
+   
+    
+}
+
+
+.mon_entreprise_card button{
+    background-color: rgb(69, 103, 179);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 8px;
+    
+}
+.bouton{
+    text-align: center;
+}
+.description{
+    padding: 15px;
+    font-family: "Manrope";
+ 
+}
+
+.image1{
+    background-image: url('images/sbeee.jpeg');
+    background-size: cover;
+    height: 300px;
+    
+}
+.image2{
+    background-image: url('images/soneb.jpeg');
+    background-size: cover;
+    height: 300px;
+}
+.image3{
+    background-image: url('images/banque.jpeg');
+    background-size: cover;
+    height: 300px;
+}
+.image4{
+    background-image: url('images/celtis.jpeg');
+    background-size: cover;
+    height: 300px;
+}
+.image5{
+    background-image: url('images/erevan.jpeg');
+    background-size: cover;
+    height: 300px;
+}
+.image6{
+    background-image: url('images/ban.jpeg');
+    background-size: cover;
+    height: 300px;
+}
+.image7{
+    background-image: url('images/digital.jpeg');
+    background-size: cover;
+    height: 300px;
+    
+}
+
+.image_{
+    background-image: url('images/construction.jpeg');
+    background-size: cover;
+    height: 300px;
+    
+}
+.en_tete{
+    text-align: center;
+    margin: 50px;
+    font-family: "Montserrat";
+  
+  
+  
+
+}
