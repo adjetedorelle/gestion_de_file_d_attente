@@ -39,9 +39,10 @@ body{
     background-color: green;
 }
 
-p span 
+p a
 {
     color: blue;
+    text-decoration: none;
 }
 
 
