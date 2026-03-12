@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page_operation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mon_entreprise.css">
+</head>
+<body>
+    <div class="formulaire">
+        <h1>Vous y êtes presque !</h1>
+        <p>Sélectionnez une opération et prenez un ticket !</p> 
+        <form  method="get" action="">
+            <label for="operation">Que souhaiteriez-vous faire ? <span>*</span></label>
+            <select name="operation" id="operation" required>
+                <option value="">Sélectionner une option </option>
+                <option value="sim">Enregistrer carte sim</option>
+                <option value="retirer">Retirer sim</option>
+                <option value="changer">Changer coordonnées</option>
+                <option value="mise">Mettre à jour sim</option>                
+            </select>
+            <label for="date">Quand voulez-vous passer ?  <span>*</span></label>
+            <input type="date" id="date" required>
+           
+        </form>
+      <input type="submit" value="Envoyer" id="submit"> 
+    </div>
+</body>
+</html>

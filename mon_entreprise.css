@@ -8,17 +8,14 @@ body{
 .mon_entreprise_card{
     width:300px ;
     background-color:  #FFFFFF;
-      
     border-radius: 10px;
 }
 .parent{
     
     display: grid;
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(3, 2fr);
     margin: 20px;
-    margin-left: 100px;
-   
-    
+    margin-left: 100px;   
 }
 
 
@@ -142,4 +139,54 @@ body{
 .code
 {
     background-color: blue;
+.formulaire{
+    font-family: "Montserrat";
+    width: 400px;
+    margin: auto;
+    background-color: #FFFFFF;
+    height: 400px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px; 
+    border-radius: 15px;
 }
+.formulaire form{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 15px;
+   
+}
+#submit{
+     width: 40%;
+     margin: 30px;
+    border-radius: 8px;
+     padding: 10px;
+      background-color: rgb(69, 103, 179);
+      text-align: center;
+      color: white;
+      
+    
+}
+#submit:hover{
+    background-color: green;  
+}
+
+#operation{
+    width: 93%;
+    padding: 7px ;
+    border-radius: 8px;      
+}
+#date{
+     width: 90%;
+    padding: 7px ;
+    border-radius: 8px;
+}
+
+label span{
+    color: red;
+}
+
+
+
