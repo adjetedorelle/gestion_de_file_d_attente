@@ -13,7 +13,7 @@
     <div class="formulaire">
         <h1>Vous y êtes presque !</h1>
         <p>Sélectionnez une opération et prenez un ticket !</p> 
-        <form  method="get" action="">
+        <form  method="get" action="page_ticket.html">
             <label for="operation">Que souhaiteriez-vous faire ? <span>*</span></label>
             <select name="operation" id="operation" required>
                 <option value="">Sélectionner une option </option>
@@ -23,10 +23,10 @@
                 <option value="mise">Mettre à jour sim</option>                
             </select>
             <label for="date">Quand voulez-vous passer ?  <span>*</span></label>
-            <input type="date" id="date" required>
-           
+            <input type="date" id="date" required> 
+             <input type="submit" value="Envoyer" id="submit" >
         </form>
-      <input type="submit" value="Envoyer" id="submit"> 
+     
     </div>
 </body>
 </html>

@@ -16,15 +16,15 @@
         <h3>Nous vous avons envoyer un code à 4 chiffre par SMS</h3>
         <div class="otp">
             <form method="" action="">
-                <input type="text" name="nombre" id="nombre">
-                <input type="text" name="nombre" id="nombre">
-                <input type="text" name="nombre" id="nombre">
-                <input type="text" name="nombre" id="nombre">
+                <input type="text" name="nombre" id="nombre1" pattern="[0-9]*" required>
+                <input type="text" name="nombre" id="nombre2" pattern="[0-9]*" required>
+                <input type="text" name="nombre" id="nombre3" pattern="[0-9]*" required>
+                <input type="text" name="nombre" id="nombre4" pattern="[0-9]*" required>
             </form>
         </div>
 
-            <button type="submit" id="entrer">Envoyer le code</button>
-            <p>Vous n'avez pas reçu le code ? <span>Renvoyer le code</span></p>
+            <button type="submit" id="entrer" onclick="window.location.href='operation.html'">Envoyer le code</button>
+            <p>Vous n'avez pas reçu le code ? <a href="">Renvoyer le code</a></p>
         
             
     </div>
