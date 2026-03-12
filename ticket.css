@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    padding: 180px;
+    background-color:#DDE3EC ;
+} 
+.message{
+    font-size: 30px;
+}
+.felicitation{
+   font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+.material-symbols-outlined{
+    border-radius: 30px;
+    background-color: green;
+    color: #ffffff;
+}
